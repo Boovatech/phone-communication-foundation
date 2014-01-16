@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Interface Name="PhoneManagerLib.IPhoneSyncStorage">
+    <Position X="0.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACQgAAAAAAAAYAAABAQAAAAAAAwAAAAAAAEAEAAAAQA=</HashCode>
+      <FileName>Interface\IPhoneSyncStorage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PhoneManagerLib.IPhoneSyncStorageFileInfo">
+    <Position X="0.5" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgRAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IPhoneSyncStorageFileInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PhoneManagerLib.IPhoneSyncCommand">
+    <Position X="3" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Interface\IPhoneSyncCommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PhoneManagerLib.IPhoneSyncClient">
+    <Position X="6.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IPhoneSyncClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PhoneManagerLib.IPhoneSyncServer">
+    <Position X="9" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAA=</HashCode>
+      <FileName>Interface\IPhoneSyncServer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

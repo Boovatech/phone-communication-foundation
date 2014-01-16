@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{3F81E142-D0B7-4E97-83ED-48B48E23C502}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F6A3F687-14AA-4B74-9D87-E117A872CE28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elis.PCF.Client", "Elis.PCF.Client\Elis.PCF.Client.csproj", "{CD17CA21-1684-47B1-BE95-EC48F7FC07A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elis.PCF.Core", "Elis.PCF.Core\Elis.PCF.Core.csproj", "{9069010B-58D3-4433-B2FF-6F26DE24C338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elis.PCF.Server", "Elis.PCF.Server\Elis.PCF.Server.csproj", "{BE5004A6-0F1B-4059-88E1-B29E46E0A2AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elis.PCF.ClientTestApp", "..\Tests\Elis.PCF.ClientTestApp\Elis.PCF.ClientTestApp.csproj", "{210C075A-6F05-46FA-8BBE-D368080E9D30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD17CA21-1684-47B1-BE95-EC48F7FC07A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD17CA21-1684-47B1-BE95-EC48F7FC07A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD17CA21-1684-47B1-BE95-EC48F7FC07A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD17CA21-1684-47B1-BE95-EC48F7FC07A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9069010B-58D3-4433-B2FF-6F26DE24C338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9069010B-58D3-4433-B2FF-6F26DE24C338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9069010B-58D3-4433-B2FF-6F26DE24C338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9069010B-58D3-4433-B2FF-6F26DE24C338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE5004A6-0F1B-4059-88E1-B29E46E0A2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5004A6-0F1B-4059-88E1-B29E46E0A2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5004A6-0F1B-4059-88E1-B29E46E0A2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5004A6-0F1B-4059-88E1-B29E46E0A2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{210C075A-6F05-46FA-8BBE-D368080E9D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210C075A-6F05-46FA-8BBE-D368080E9D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210C075A-6F05-46FA-8BBE-D368080E9D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210C075A-6F05-46FA-8BBE-D368080E9D30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD17CA21-1684-47B1-BE95-EC48F7FC07A5} = {3F81E142-D0B7-4E97-83ED-48B48E23C502}
+		{9069010B-58D3-4433-B2FF-6F26DE24C338} = {3F81E142-D0B7-4E97-83ED-48B48E23C502}
+		{BE5004A6-0F1B-4059-88E1-B29E46E0A2AF} = {3F81E142-D0B7-4E97-83ED-48B48E23C502}
+		{210C075A-6F05-46FA-8BBE-D368080E9D30} = {F6A3F687-14AA-4B74-9D87-E117A872CE28}
+	EndGlobalSection
+EndGlobal
